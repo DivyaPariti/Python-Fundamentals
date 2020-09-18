@@ -1,0 +1,66 @@
+Try Except Concept:
+Rewrite your pay program using try and except so that your program handles non-numeric input gracefully by printing a message and exiting the program. The following shows two executions of the program: Enter Days: 20. Enter Rate: nine. Error, please enter numeric input Enter Days: forty Error, please enter numeric input
+
+SOLUTION:
+
+xh = input("Enter Hours:")
+xr = input("Enter Rate:")
+try:
+   fh = float(xh)
+   fr = float(xr)
+except:
+   print("Error, please enter numeric input")
+---------------------------------------------------------------------------------------------------------------
+
+Expressions and user input Concept:
+Write a program to prompt the user for days and rate per day to compute total pay. Use 50 days and a rate of 3.5 per day to test the program. Total pay is equal to (days* Rate per day). You should use input to read a string and float() to convert the string to a number. 
+
+SOLUTION:
+
+xh = input("Enter Days:")
+xr = input("Enter Rate:")
+xp = float(xh) * float(xr)
+print("Pay:",xp)
+---------------------------------------------------------------------------------------------------------------
+
+Fucntions Concept:
+Rewrite your pay computation and create a function called computeTotalpay which takes two parameters (days and rate) and returns computed pay as answer. Enter Days: 45. Enter Rate: 10. Pay: 450.0
+
+SOLUTION:
+def computepay(hour, rate):
+    pay = hour * rate
+    return pay
+
+xh = input("Enter Hours:")
+
+xr = input("Enter Rate:")
+
+
+try:
+    fh = float(xh)
+    fr = float(xr)
+
+    print("Pay: ",computepay(fh,fr))
+except:
+    print("Error, please enter numeric input") 
+---------------------------------------------------------------------------------------------------------------
+Loops Concept:
+Write a program which repeatedly reads numbers until the user enters "exit". Once "exit" is entered, print out the sum, count, and average of the numbers. If the user enters anything other than a number, detect their mistake using try and except and print an error message and skip to the next number. Enter a number: 4 Enter a number: 5 Enter a number: bad data Invalid input Enter a number: exit 9.0 2 4.5
+
+SOLUTION:
+
+num = 0
+tot = 0.0
+while True:
+   val = input("Enter a number: ")
+   if val == 'done':
+       break
+   try:
+       fval = float(val)
+   except:
+       print('Invalid')
+       continue
+   num = num + 1
+   tot = tot + fval
+
+print(tot,num,tot/num)
