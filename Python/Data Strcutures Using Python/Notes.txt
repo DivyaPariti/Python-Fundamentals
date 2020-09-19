@@ -1,0 +1,85 @@
+STRINGS:
+Collection of characters is called a string.
+---------------------------------------------------------------------------------------------------------------Len Function:
+len() function is an inbuilt function in Python that gives the length of a particular string. It by default considers space also into count/under length of the strings.
+---------------------------------------------------------------------------------------------------------------
+String Slicing:
+Syntax:
+str_obj[start_pos:end_pos:step]
+used when you want a part of string only not the entire string. Step parameter is used specify the steps to take from start to end of the index. 
+---------------------------------------------------------------------------------------------------------------
+String Library Functions:
+
+1. in:
+     it is used to check to see if one string is there in other string or not. The in expression is a logical expression that returns True or False and can be used in an if statement.
+2. isupper():
+         The isuper() methods returns "true", if all characters in the string are uppercase. Otherwise, returns "false".
+3. islower():
+           The islower() method returns "True", if all the characters in the string are lowercase, otherwise returns "false".
+4. upper():
+        This upper() method returns output as all uppercase characters, otherwise if the string contains all uppercase returns the original string.
+5. lower():
+        This lower() methods returns output as all lowercase characters, otherwise if the string contains all lowercase characters returns original string.
+---------------------------------------------------------------------------------------------------------------
+Stripping WhiteSpace from the String:
+
+1. lstrip() and rstrip() are the two methods that rmoves white spaces at left or right.
+2. strip() removes both beginning and ending whitespaces.
+---------------------------------------------------------------------------------------------------------------
+
+Parsing & Extraction:
+
+1. find():
+       This methonds finds you the postion of the character you want in the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
