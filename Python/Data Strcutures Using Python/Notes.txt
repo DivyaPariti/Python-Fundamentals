@@ -31,6 +31,50 @@ Parsing & Extraction:
 
 1. find():
        This methonds finds you the postion of the character you want in the string.
+---------------------------------------------------------------------------------------------------------------
+ Files:
+
+1. open():
+        Syntax: open(file,mode)
+the modes are which aloow us to do something we require or need/changes according to us to the file.
+There are 4 modes
+1. read - "r"
+2. append - "a"
+3. write - "w"
+4. create - "x"
+---------------------------------------------------------------------------------------------------------------
+Counting Lines in the file:
+
+
+A file handle open for read can be treated as a sequence of strings where each sentence/line is a sting in the sequence. We can use the 'for' statement to iterate through a sequence.
+---------------------------------------------------------------------------------------------------------------
+Searching in a file:
+
+We can easily search for a word in a file using the function "startswith" which gives us the desired output of the character we are searching for.
+---------------------------------------------------------------------------------------------------------------
+Lists:
+
+A list is a collection of oredered and changeable characters. In Python, we represnt Lists using square brackets. A collection allows you to put many values in a single "variable". List constants are surrounded by square brackets and the elements in the list are seperated by commas. A list element can be any Python object- -even another list. A list can be empty too. LISTS ARE MUTABLE. STRINGS ARE IMMUTABLE, which mean we can change the elements in the lists using index operator but whereas in Strings one alloted we can't change the values using any operator. We must make a new string to make any change in the Strings.
+---------------------------------------------------------------------------------------------------------------
+Len() Range:
+
+The len() function takes a list as a parameter and returns the number of elements in the list. Actually lrn() tells us the number of elements of any set or sequence such as string,etc.,
+Range function():
+The range function returns a lsit of numbers that range from zero to one less than the parameter. We can construct an index loop usng for and an integer iterator.
+Building a list: from scratch:
+An empty list can be created and then we can add elements using append() method. The list stays in order and new elements are added at the end of the list.
+Lists are in order:
+List can have many items that too in order until we change the order. Lists can be sorted i.e., order change. sort() method in the list means "sort yourself".
+---------------------------------------------------------------------------------------------------------------
+Split() Function:
+This function actually splits your string and forms it into a list. we just need to use split() with required string and it turns it into list and displays the output.
+---------------------------------------------------------------------------------------------------------------
+Dictionaries:
+Dictionaries are like lists except that they use keys instead of numbers to look up values.
+---------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
