@@ -1,0 +1,16 @@
+list = "Hello! This is Divya. Welcome to the course. If you have any doubts mail to me divyatanuja17@gmail.com"
+a = list.split()
+print(a)
+print("\n")
+print(len(a))
+print("\n")
+print(a[6:15])
+print("\n")
+print(a[12:])
+print("\n")
+print(a[:5])
+print("\n")
+c = a[16]
+domain = c.split('@')
+print(domain)
+print(domain[0],"\t",domain[1])
