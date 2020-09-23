@@ -72,6 +72,8 @@ This function actually splits your string and forms it into a list. we just need
 Dictionaries:
 Dictionaries are like lists except that they use keys instead of numbers to look up values.
 ---------------------------------------------------------------------------------------------------------------
+Tuples:
+Tuples are another kind of sequence that functions much like a list-they have elements which are indexed starting at 0. In tuples, we have lot of functions, example max()-this prints the max of the characters in the string. TUPLES ARE IMMUTABLE. Tuples can be used in the left-side of the statement and assign the values. So, we can say the tuples are flexible to assigning values. The items() method in dictionaries returns a list of (key,value)pair tuples. Tuples are comparable. The comparison operator work with tuples and other sequences. If the first item is equal, Python goes on to the next element, and so on, until it finds elements that differ. Mean you can compare two tuple variables like (0,1,2)<(5,6,7) returns 'FALSE'. Sorting Tuples is the ability to sort a list of tuples to get a sorted version of dictionary. Frist we sort the dictionary by the key using the items() method and sorted() fucntion. We can do this even more directly using the built-in function "sorted" that takes a sequence as a parameter and returns a sorted sequence. And this sorting happens only "key" wise not value wise.
 
 
 
